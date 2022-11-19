@@ -1,0 +1,95 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px auto 0 auto;
+  width: fit-content;
+
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.info {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tag,
+.location {
+  font-size: 15px;
+  font-weight: 500;
+  color: #7b7a7a;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin-top: 20px;
+  max-height: 150px;
+
+  background-color: white;
+  border-radius: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.stats {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none;
+
+  width: 300px;
+
+  background-color: #f3f6f9;
+  border-top: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+.stats li {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px 0;
+  width: 33%;
+
+  transition: all 300ms ease-in-out;
+}
+
+.stats li:hover {
+  background-color: #e4f1ff;
+}
+
+.stats li:nth-child(2n) {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
+.stats li span:nth-child(1) {
+  font-size: 15px;
+  font-weight: 600;
+  color: #7b7a7a;
+}
+.stats li span:nth-child(2) {
+  font-size: 15px;
+  font-weight: 700;
+  color: #5a5a5a;
+}
