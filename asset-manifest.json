@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Kyrylo2/goit-react-hw-01-components.git/static/css/main.d0fb0eb2.css",
-    "main.js": "/Kyrylo2/goit-react-hw-01-components.git/static/js/main.77b5cbb6.js",
-    "index.html": "/Kyrylo2/goit-react-hw-01-components.git/index.html",
-    "main.d0fb0eb2.css.map": "/Kyrylo2/goit-react-hw-01-components.git/static/css/main.d0fb0eb2.css.map",
-    "main.77b5cbb6.js.map": "/Kyrylo2/goit-react-hw-01-components.git/static/js/main.77b5cbb6.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.d0fb0eb2.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.77b5cbb6.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.d0fb0eb2.css.map": "/goit-react-hw-01-components/static/css/main.d0fb0eb2.css.map",
+    "main.77b5cbb6.js.map": "/goit-react-hw-01-components/static/js/main.77b5cbb6.js.map"
   },
   "entrypoints": [
     "static/css/main.d0fb0eb2.css",
