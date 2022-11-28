@@ -78,17 +78,17 @@ ul {
   background-color: #e4f1ff;
 }
 
-.stats li:nth-child(2n) {
+.stats li:nth-of-type(2n) {
   border-left: 1px solid lightgray;
   border-right: 1px solid lightgray;
 }
 
-.stats li span:nth-child(1) {
+.stats li span:nth-of-type(1) {
   font-size: 15px;
   font-weight: 600;
   color: #7b7a7a;
 }
-.stats li span:nth-child(2) {
+.stats li span:nth-of-type(2) {
   font-size: 15px;
   font-weight: 700;
   color: #5a5a5a;

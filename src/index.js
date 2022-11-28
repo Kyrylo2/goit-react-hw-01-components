@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
-// import { SocialProfile } from 'components/01-socialProfile';
-import user from './user.json';
 import './index.css';
+import { ThemeProvider } from '@emotion/react';
+import { theme } from './theme';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>
 );
-
-console.log(user);

@@ -1,9 +1,10 @@
-import css from './TransactionHistory.module.css';
 import PropTypes from 'prop-types';
+
+import { TransactionHistoryContainer } from './TransactionHistory.styled';
 
 export const TransactionHistory = ({ items }) => {
   return (
-    <table className={css.transactionHistory}>
+    <TransactionHistoryContainer>
       <thead>
         <tr>
           <th>Type</th>
@@ -21,7 +22,7 @@ export const TransactionHistory = ({ items }) => {
           </tr>
         ))}
       </tbody>
-    </table>
+    </TransactionHistoryContainer>
   );
 };
 

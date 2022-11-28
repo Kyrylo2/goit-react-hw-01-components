@@ -3,13 +3,12 @@ import { Statistics } from 'components/Statistics/Statistics';
 import { FriendList } from 'components/FriendList/FriendList';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
 
-import transactions from 'transactions.json';
-import user from 'user.json';
-import data from 'data.json';
-import friends from 'friends.json';
+import user from './dataBases/user.json';
+import data from './dataBases/data.json';
+import friends from './dataBases/friends.json';
+import transactions from './dataBases/transactions.json';
 
 export const App = () => {
-  console.log(data);
   return (
     <div>
       <Profile

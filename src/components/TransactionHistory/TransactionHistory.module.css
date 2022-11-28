@@ -10,8 +10,6 @@ thead > tr {
 }
 
 tr {
-  /* border: 1px solid red; */
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -28,20 +26,14 @@ tr {
   transition: all 1s ease-out;
 }
 
-thead {
-  /* background-color: #00bcd5; */
-}
-
 th {
   flex: 1 1 0px;
   text-align: center;
-  /* border: 1px solid green; */
 }
 
 td {
   flex: 1 1 0px;
   text-align: center;
-  /* border: 1px solid green; */
 }
 
 tbody {

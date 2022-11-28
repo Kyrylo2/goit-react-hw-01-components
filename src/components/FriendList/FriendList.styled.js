@@ -1,4 +1,6 @@
-.friendList {
+import styled from '@emotion/styled';
+
+export const List = styled.ul`
   display: flex;
   flex-direction: column;
 
@@ -7,43 +9,35 @@
   gap: 20px;
 
   margin-top: 40px;
-}
+`;
 
-.item {
+export const ListItem = styled.li`
   display: flex;
   justify-content: flex-start;
   gap: 30px;
   width: 100%;
   align-items: center;
 
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: ${({ theme }) => theme.shadow};
 
-  /* width: fit-content; */
   padding: 10px 0;
-  /* padding-right: 20px; */
 
-  background-color: #ffffff;
+  background-color: ${props => props.theme.colors.white};
   border-radius: 5px;
-}
+`;
 
-.offline {
+export const ActivityMark = styled.span`
   height: 10px;
   width: 10px;
-  background-color: red;
   border-radius: 50%;
   display: inline-block;
   margin-left: 30px;
-}
-.online {
-  height: 10px;
-  width: 10px;
-  background-color: green;
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: 30px;
-}
 
-.avatar {
+  background-color: ${({ status, theme }) =>
+    status ? `${theme.colors.red}` : `${theme.colors.green}`};
+`;
+
+export const AvatarImg = styled.img`
   margin-top: auto;
   margin-bottom: auto;
-}
+`;
